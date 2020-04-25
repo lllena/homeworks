@@ -1,0 +1,47 @@
+body {
+    background-color: #dedede;
+}
+h1 {
+    text-align: center;  
+}
+
+h2 {
+    text-align: center;
+    border-style: dotted;
+    border-color: blueviolet;
+    border-left:none;
+    border-right: none;
+}
+
+.underlines {
+    text-decoration: underline;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.notes {
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: #fff2d9;
+}
+
+.picture{
+    display:block;
+    margin:auto;
+    border-radius: 20px;
+}
+
+.content {
+    margin-left: 21%;
+}
+
+.menu {
+    background-color: #91918c;;
+    position: fixed;
+    bottom: 35%; /* Положение от нижнего края */
+    left: 15px; /* Положение от правого края */
+    line-height: 25px;
+
+}
