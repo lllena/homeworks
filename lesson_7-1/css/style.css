@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head {
+    width: 1141px;
+    height: 805px;
+    display: flex;
+    align-items: center;
+    
+}
+.center {
+    width: 100pv;
+    height: 407px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1366px;
+    height: 409px;
+}
+
+.book {
+    width: 403px;
+    height: 629px;
+    margin-left: 12px;
+}
+
+.description { 
+    width: 533px;
+    height: 594px;
+    margin-left: 82px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: "Tahoma";
+    color: rgb(0, 0, 0);
+}
+
+.autor {
+    font-size: 30px;
+    font-family: "Tahoma";
+    color: rgb(0, 0, 0);
+}
+
+.price {
+    font-size: 48px;
+    font-family: "Tahoma";
+    color: rgb(49, 49, 49);
+}
+
+.description-text{
+    font-size: 18px;
+    font-family: "Tahoma";
+    color: rgb(0, 0, 0);
+}
+
+.button {
+    display: flex;
+}
+.button-1 {
+    border-radius: 5px;
+    background-color: rgb(240, 90, 34);
+    border: none;
+    color: #fff;
+    padding: 22px 42px 22px 47px;
+    font-size: 24px;
+    font-family: "Tahoma";
+    font-weight: bold;
+}
+
+.button-2 {
+    margin-left: 40px;
+    border-width: 2px;
+    border-color: rgb(240, 90, 34);
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: "Tahoma";
+    color: rgb(240, 90, 34);
+    font-weight: bold;
+    padding: 21px 31px 22px 30px;
+    background-color: #fff;
+}
+.heading {
+    margin-top: 89px;;
+    height: 30px;
+    width: 1366px;
+    font-size: 30px;
+    font-family: "Tahoma";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-align: center;
+}
+.elements {
+    display: flex;
+    margin-top:89px;
+    margin-bottom: 105px;
+    width: 1141px;
+    align-items:center;
+    justify-content: center;
+}
+.element {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin-left: 25px;
+    align-items:center;
+    justify-content: center;
+}
+.img{
+    margin-bottom: 15px;
+}
+.words {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    line-height: 1.222;
+
+}
+.one {
+    margin-bottom: 10px;
+    transform: rotate(-25deg);
+}
+
+  
+  
+
+  
+
