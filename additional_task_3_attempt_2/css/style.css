@@ -1,0 +1,54 @@
+body {
+    background: #f6f6f6;
+}
+
+.rectangle {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 60px 20px;
+   
+}
+.characteristic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+img {
+    max-width: 100%;
+}
+
+.price{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.priceNumber {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 15px 50px 17px 27px;
+    background-color: #ec744a;
+    border: none;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+} 
