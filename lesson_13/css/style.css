@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* font-family: sans-serif; */
+}
+.container{
+    max-width: 1920px;
+    height: 780px;
+    width: 100%;
+    background-color: #c1f0f3;
+    background: radial-gradient(circle at 75% 60%, #ffffff, #d8f2f3, #c1f0f3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.image{
+    padding-right: 140px;
+    padding-top: 32px;
+}
+.info{
+    margin-left: 380px;
+    text-align: left;
+}
+.name{
+    display: block;
+    font-size: 66px;
+    font-weight: bold;
+    font-family: monospace;
+    color:#7c6db0;
+    padding-top: 38px;
+    line-height: 59px;
+}
+
+.city{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+    background-color:#7c6db0 ;
+    padding: 10px 20px 18px 22px;
+    font-family: monospace;
+}
+.description{
+    display: flex;
+    align-items: center;
+    margin-top: 84px;
+}
+.icon{
+    width: 52px;
+    height: 60px;
+    margin-right: 41px;
+    margin-left: 5px;
+}
+.text{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+
+.button{
+    margin-top: 120px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.buttonOne{
+    color: #ffffff;
+    background-color: #01c4e0;
+    border:2px solid #01c4e0;
+    padding: 21px 47px 25px 56px;
+    text-decoration: none;
+}
+.buttonTwo{
+    color:#01c4e0;
+    padding: 23px 79px 27px 71px;
+    border:2px solid #01c4e0;
+    text-decoration: none;
+    margin-left: 26px;
+}
