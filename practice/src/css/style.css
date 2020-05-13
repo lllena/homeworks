@@ -41,7 +41,7 @@ img {
 
 /*Импорт стилей шапки*/
 .navbar {
-  padding: 8px 0;
+  padding: 8px 0 0 0;
 }
 
 .navbar-block {
@@ -64,6 +64,8 @@ img {
       -ms-flex-align: center;
           align-items: center;
   text-align: right;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 .navbar__address {
@@ -74,19 +76,27 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 13px;
 }
 
 .navbar__button {
-  margin-left: 30px;
+  margin-left: 31px;
+  margin-right: -5px;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: -0.099em;
+  padding-top: 18px;
+  padding-bottom: 20px;
 }
 
 .navbar__phone {
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   color: #333333;
-  font-weight: 400;
+  font-weight: 900;
+  letter-spacing: -0.01em;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 @media (max-width: 768px) {
