@@ -112,6 +112,16 @@ img {
   }
 }
 
+@media (max-width: 568px) {
+  .navbar__button {
+    font-size: 10px;
+    margin-right: 14px;
+    border-radius: 5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
+
 /*Стили для главного блока*/
 .hero {
   padding: 50px 0;
