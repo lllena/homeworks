@@ -80,8 +80,8 @@ img {
 }
 
 .navbar__button {
-  margin-left: 31px;
-  margin-right: -5px;
+  margin-left: 30px;
+  margin-right: 2px;
   font-weight: 900;
   font-size: 13px;
   letter-spacing: -0.099em;
@@ -96,7 +96,7 @@ img {
   font-weight: 900;
   letter-spacing: -0.01em;
   text-decoration: none;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 @media (max-width: 768px) {
@@ -115,7 +115,7 @@ img {
 @media (max-width: 568px) {
   .navbar__button {
     font-size: 10px;
-    margin-right: 14px;
+    margin-right: 10px;
     border-radius: 5px;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -124,7 +124,7 @@ img {
 
 /*Стили для главного блока*/
 .hero {
-  padding: 50px 0;
+  padding: 55px 0;
 }
 
 .hero-block {
@@ -134,23 +134,24 @@ img {
 }
 
 .hero-text {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  padding-right: 140px;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  padding-right: 120px;
 }
 
 .hero-text__title {
-  font-size: 41px;
+  font-size: 39px;
   font-weight: 700;
   line-height: 55px;
+  letter-spacing: 0.009em;
   margin-bottom: 40px;
 }
 
-.hero__subtitle {
+.hero-text__subtitle {
   display: inline-block;
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 70px;
+  font-size: 19.5px;
+  font-weight: 700;
+  margin-bottom: 52px;
 }
 
 .hero-list__item {
@@ -160,12 +161,13 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 32px;
+  margin-left: -39px;
 }
 
 .hero-list__image {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   border: 2px solid #ffd200;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -182,6 +184,12 @@ img {
 
 .hero-list__text {
   max-width: 300px;
+}
+
+.hero-image {
+  max-width: 620px;
+  width: 100%;
+  margin-right: -40px;
 }
 
 @media (max-width: 1200px) {
@@ -222,19 +230,34 @@ img {
 
 @media (max-width: 567px) {
   #two {
-    width: 50px;
+    width: 45px;
   }
   #three {
-    width: 50px;
+    width: 45px;
+  }
+  .hero-text__title {
+    margin-top: -2px;
+    margin-left: 2px;
+    margin-bottom: 9px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+  }
+  .hero-text__subtitle {
+    margin-left: 4px;
+    margin-bottom: 14px;
+  }
+  .hero-image {
+    margin-top: -5px;
   }
 }
 
 @media (max-width: 320px) {
   #two {
-    width: 60px;
+    width: 75px;
   }
   #three {
-    width: 60px;
+    width: 75px;
   }
 }
 /*# sourceMappingURL=style.css.map */

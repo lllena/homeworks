@@ -1,28 +1,30 @@
 .hero
-    padding: 50px 0
+    padding: 55px 0
     &-block
         display: flex
     &-text
-        flex-basis: 50%
-        padding-right: 140px
+        flex-basis: 60%
+        padding-right: 120px
         &__title
-            font-size: 41px
+            font-size: 39px
             font-weight: 700
             line-height: 55px
+            letter-spacing: 0.009em
             margin-bottom: 40px
-    &__subtitle
-        display: inline-block
-        font-size: 20px
-        font-weight: 500
-        margin-bottom: 70px
+        &__subtitle
+            display: inline-block
+            font-size: 19.5px
+            font-weight: 700
+            margin-bottom: 52px
     &-list
         &__item
             display: flex
             align-items: center
-            margin-bottom: 25px
+            margin-bottom: 32px
+            margin-left: -39px
         &__image
-            width: 40px
-            height: 40px
+            width: 36px
+            height: 36px
             border: 2px solid $main-color
             display: flex
             justify-content: center
@@ -31,6 +33,11 @@
             margin-right: 30px
         &__text
             max-width: 300px
+    &-image
+        max-width: 620px
+        width: 100%
+        margin-right: -40px
+
 @media ( max-width: 1200px )
     .hero
         &-block
@@ -58,14 +65,28 @@
                 margin-right: 15px
 @media ( max-width: 567px )
     #two
-        width: 50px
+        width: 45px
     #three
-        width: 50px
+        width: 45px
+    .hero
+        &-text
+            &__title
+                margin-top: -2px
+                margin-left: 2px
+                margin-bottom: 9px
+                font-size: 24px
+                line-height: 28px
+                letter-spacing: -0.01em
+            &__subtitle
+                margin-left: 4px
+                margin-bottom: 14px
+        &-image
+           margin-top: -5px
 @media ( max-width: 320px )
     #two
-        width: 60px
+        width: 75px
     #three
-        width: 60px
+        width: 75px
 
 
 
