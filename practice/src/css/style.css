@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: sans-serif;
+  font-family: 'Museo Sans Light', sans-serif;
 }
 
 img {
@@ -37,6 +37,22 @@ img {
   border: none;
   background-color: #ffd200;
   padding: 18px 30px;
+}
+
+@font-face {
+  font-family: 'Museo Sans Light';
+  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.eot");
+  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Bold';
+  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.eot");
+  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*Импорт стилей шапки*/
