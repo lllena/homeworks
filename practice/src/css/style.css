@@ -1,6 +1,23 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'Museo Sans Light';
+  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.eot");
+  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Bold';
+  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.eot");
+  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Museo Sans Light', sans-serif;
+  font-weight: 300;
 }
 
 img {
@@ -37,22 +54,6 @@ img {
   border: none;
   background-color: #ffd200;
   padding: 18px 30px;
-}
-
-@font-face {
-  font-family: 'Museo Sans Light';
-  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.eot");
-  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-300.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Museo Sans Bold';
-  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.eot");
-  src: url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCirl/MuseoSansCyrl-700.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 /*Импорт стилей шапки*/
@@ -96,23 +97,22 @@ img {
 }
 
 .navbar__button {
-  margin-left: 30px;
-  margin-right: 2px;
-  font-weight: 900;
+  margin-left: 29px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
   font-size: 13px;
-  letter-spacing: -0.099em;
-  padding-top: 18px;
-  padding-bottom: 20px;
+  padding-top: 17px;
+  padding-bottom: 18px;
 }
 
 .navbar__phone {
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   color: #333333;
-  font-weight: 900;
-  letter-spacing: -0.01em;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 @media (max-width: 768px) {
@@ -152,20 +152,21 @@ img {
 .hero-text {
   -ms-flex-preferred-size: 60%;
       flex-basis: 60%;
-  padding-right: 120px;
 }
 
 .hero-text__title {
-  font-size: 39px;
-  font-weight: 700;
+  font-size: 41px;
   line-height: 55px;
-  letter-spacing: 0.009em;
-  margin-bottom: 40px;
+  margin-bottom: 39px;
+  margin-left: -2px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .hero-text__subtitle {
   display: inline-block;
-  font-size: 19.5px;
+  font-size: 20px;
+  font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
   margin-bottom: 52px;
 }
@@ -177,7 +178,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 32px;
+  margin-bottom: 26px;
   margin-left: -39px;
 }
 
@@ -199,13 +200,19 @@ img {
 }
 
 .hero-list__text {
-  max-width: 300px;
+  max-width: 250px;
+  font-size: 14px;
+  line-height: 25px;
 }
 
 .hero-image {
   max-width: 620px;
   width: 100%;
   margin-right: -40px;
+}
+
+.three {
+  margin-top: -3.5px;
 }
 
 @media (max-width: 1200px) {
@@ -264,7 +271,7 @@ img {
     margin-bottom: 14px;
   }
   .hero-image {
-    margin-top: -5px;
+    margin-top: -6px;
   }
 }
 

@@ -4,24 +4,22 @@
         display: flex
     &-text
         flex-basis: 60%
-        padding-right: 120px
         &__title
-            font-size: 39px
-            +bold
+            font-size: 41px
             line-height: 55px
-            letter-spacing: 0.009em
-            margin-bottom: 40px
+            margin-bottom: 39px
+            margin-left: -2px
             +bold
         &__subtitle
             display: inline-block
-            font-size: 19.5px
+            font-size: 20px
             +bold
             margin-bottom: 52px
     &-list
         &__item
             display: flex
             align-items: center
-            margin-bottom: 32px
+            margin-bottom: 26px
             margin-left: -39px
         &__image
             width: 36px
@@ -33,11 +31,15 @@
             border-radius: 50%
             margin-right: 30px
         &__text
-            max-width: 300px
+            max-width: 250px
+            font-size: 14px
+            line-height: 25px
     &-image
         max-width: 620px
         width: 100%
         margin-right: -40px
+.three
+    margin-top: -3.5px
 
 @media ( max-width: 1200px )
     .hero
@@ -82,7 +84,7 @@
                 margin-left: 4px
                 margin-bottom: 14px
         &-image
-           margin-top: -5px
+           margin-top: -6px
 @media ( max-width: 320px )
     #two
         width: 75px
